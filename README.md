@@ -1,17 +1,11 @@
-## Getting Started
+# Workshop quarries 2 | Sofka
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to a series of workshops on the formation process in sofka quarries 2
 
-## Folder Structure
+## Usage
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+You must have the `Java SDK` installed on your computer
+Download the repository or simply clone it, open it with your preferred IDE or code editor
 
 ## Dependency Management
 
