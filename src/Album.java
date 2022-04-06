@@ -1,7 +1,6 @@
 /**
  * This class represents the Album of an artist with some methods of the class
- * @author Kevin Martinez
- * @version: 5/Abril/2020
+ * 
  */
 
 public class Album {

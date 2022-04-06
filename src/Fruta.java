@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 @SuppressWarnings("unused")
 
+/**
+ * class declaration Fruta
+ */
 
 public class Fruta {   
     
@@ -17,7 +20,7 @@ public class Fruta {
     }
 
     /**
-     * We define the constructor of the class Fruta
+     * constructor of the class Fruta
      * @param name define the name of the fruit
      * @param averageWeight defines the average weight of the fruit of type float
      * @param colors defines a list of colors
