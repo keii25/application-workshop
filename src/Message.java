@@ -2,7 +2,7 @@ import java.sql.Date;
 /**
  * This class represents a Message
  */
-public class Mensaje {
+public class Message {
 
     // class fields
     private String title;
@@ -12,7 +12,7 @@ public class Mensaje {
     /**
      * empty builder
      */
-    public  Mensaje(){
+    public  Message(){
     }
 
     /**
@@ -22,7 +22,7 @@ public class Mensaje {
      * @param released indicates the posting date of the message
      */
 
-    public Mensaje(String title, String description, Date released) {
+    public Message(String title, String description, Date released) {
         this.title = title;
         this.description = description;
         this.released = released;

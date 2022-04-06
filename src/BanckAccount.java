@@ -1,8 +1,8 @@
 /**
- * This class represents a Account Bank
+ * This class represents a Bank Account
  */
 
-public class CuentaBancaria {
+public class BanckAccount {
 
     // class fields
     private int accountNumber;
@@ -11,7 +11,7 @@ public class CuentaBancaria {
     /**
      * empty builder
      */
-    public CuentaBancaria(){
+    public BanckAccount(){
         accountNumber = 12101130;
     }
 
@@ -21,7 +21,7 @@ public class CuentaBancaria {
      * @param activated indicates the status of the bank account
      */
 
-    public CuentaBancaria(int accountNumber, boolean activated) {
+    public BanckAccount(int accountNumber, boolean activated) {
         this.accountNumber = accountNumber;
         this.activated = activated;
     }

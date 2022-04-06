@@ -2,10 +2,10 @@ import java.util.ArrayList;
 @SuppressWarnings("unused")
 
 /**
- * class declaration Fruta
+ * class declaration Fruit
  */
 
-public class Fruta {   
+public class Fruit {   
     
     // class fields
     public String name;
@@ -16,7 +16,7 @@ public class Fruta {
     /**
      * empty builder
      */
-    public Fruta(){
+    public Fruit(){
     }
 
     /**
@@ -26,7 +26,7 @@ public class Fruta {
      * @param colors defines a list of colors
      */
 
-    public Fruta(String name, float averageWeight, ArrayList<String> colors) {
+    public Fruit(String name, float averageWeight, ArrayList<String> colors) {
         this.name = name;
         this.averageWeight = averageWeight;
         this.colors = colors;

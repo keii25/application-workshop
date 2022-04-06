@@ -9,7 +9,7 @@ public class App {
         System.out.println("-----------");
 
         System.out.println("Cuenta Bancaria");
-        CuentaBancaria account_1 = new CuentaBancaria();
+        BanckAccount account_1 = new BanckAccount();
         account_1.setActivated(true);
         System.out.println("Status Account: "+account_1.isActivated());
         System.out.println("Account number: "+account_1.getAccountNumber());
@@ -17,7 +17,7 @@ public class App {
         System.out.println("-----------");
 
         System.out.println("Gladiator");
-        Gladiador gladiator_1 = new Gladiador();
+        Gladiator gladiator_1 = new Gladiator();
         gladiator_1.setName("Maximo Decimo Meridio");
         System.out.println(gladiator_1.getName());
         gladiator_1.attacking();
@@ -26,7 +26,7 @@ public class App {
         System.out.println("-----------");
 
         System.out.println("Message");
-        Mensaje message_1 = new Mensaje();
+        Message message_1 = new Message();
         message_1.setTitle("apply to vacancy");
         message_1.setDescription("I share my resume");
         message_1.read();
@@ -44,7 +44,7 @@ public class App {
         System.out.println("-----------");
 
         System.out.println("Fruta");
-        Fruta fruits = new Fruta();
+        Fruit fruits = new Fruit();
         fruits.colors.add("Rojas");
         fruits.colors.add("Verdes");
         System.out.println(fruits.getColors());

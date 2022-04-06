@@ -1,10 +1,10 @@
 import java.util.Date;
 
 /**
- * This class represents a Persona
+ * This class represents a Person
  */
 
-public class Persona {
+public class Person {
 
     // class fields
     String name;
@@ -16,7 +16,7 @@ public class Persona {
     /**
      * empty builder
      */
-    public Persona(){
+    public Person(){
     }
 
     /**
@@ -28,7 +28,7 @@ public class Persona {
      * @param height height of person
      */
 
-    public Persona(String name, String lastName, String lastName2, Date dateBirth, float height) {
+    public Person(String name, String lastName, String lastName2, Date dateBirth, float height) {
         this.name = name;
         this.lastName = lastName;
         this.lastName2 = lastName2;

@@ -2,7 +2,7 @@
  * This class represents the attributes and actions of a Gladiator.
  */
 
-public class Gladiador {
+public class Gladiator {
 
     // class fields
     private String name;
@@ -13,7 +13,7 @@ public class Gladiador {
      * empty builder
      */
 
-    public Gladiador(){
+    public Gladiator(){
 
     }
     /**
@@ -23,7 +23,7 @@ public class Gladiador {
      * @param weapon indicates the name of the weapon used by the gladiator
      */
 
-    public Gladiador(String name, int attack, String weapon) {
+    public Gladiator(String name, int attack, String weapon) {
         this.name = name;        
         this.attack = attack;
         this.weapon = weapon;
